@@ -12,7 +12,7 @@ groups=('devel')
 depends=('python')
 makedepends=('mercurial' 'python-setuptools' 'wget')
 provides=('python-ruamel-yaml')
-conflicts=('python-ruamel-yaml-hg')
+conflicts=('python-ruamel-yaml')
 source=("${_hgname}::hg+http://hg.code.sf.net/p/ruamel-yaml/code")
 md5sums=('SKIP')
 

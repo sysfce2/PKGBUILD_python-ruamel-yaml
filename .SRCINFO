@@ -11,7 +11,7 @@ pkgbase = python-ruamel-yaml-hg
 	makedepends = wget
 	depends = python
 	provides = python-ruamel-yaml
-	conflicts = python-ruamel-yaml-hg
+	conflicts = python-ruamel-yaml
 	source = yaml::hg+http://hg.code.sf.net/p/ruamel-yaml/code
 	md5sums = SKIP
 

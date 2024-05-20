@@ -2,7 +2,7 @@
 
 pkgname=python-ruamel-yaml-hg
 _hgname=yaml
-pkgver=0.16.12.r4.7858379dfa6e
+pkgver=0.18.6.r2.0bef9fa8b3c4
 pkgrel=1
 pkgdesc="YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order"
 arch=('any')
@@ -10,9 +10,9 @@ url="https://sourceforge.net/projects/ruamel-yaml/"
 license=('MIT')
 groups=('devel')
 depends=('python')
-makedepends=('python-pip' 'mercurial' 'wget')
+makedepends=('mercurial' 'python-setuptools' 'wget')
 provides=('python-ruamel-yaml')
-conflicts=('python-ruamel-yaml-hg')
+conflicts=('python-ruamel-yaml')
 source=("${_hgname}::hg+http://hg.code.sf.net/p/ruamel-yaml/code")
 md5sums=('SKIP')
 
